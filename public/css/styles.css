@@ -52,6 +52,19 @@ h3 {
   padding-bottom: 0rem;
 }
 
+.main-content > p {
+  margin-top: 1.6rem;
+}
+
+.image-cluster {
+  margin-top: 2.4rem;
+}
+
+.card > h2 {
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
 .navigation {
   display: flex;
   flex-direction: column;
