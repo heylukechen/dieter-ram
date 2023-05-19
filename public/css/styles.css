@@ -103,3 +103,16 @@ h3 {
   align-items: stretch;
   justify-content: center;
 }
+
+.resources-list {
+    list-style-type: disc;
+    margin-left: 3.2rem;
+    margin-top: 2.4rem;
+    margin-bottom: 2.4rem;
+    line-height: 4rem;
+    font-size: 1.6rem;
+}
+
+.resources-list > li > span {
+    color: #5e5f63;
+}
