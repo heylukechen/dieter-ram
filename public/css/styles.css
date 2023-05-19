@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+* {
+  font-family: "inter", sans-serif;
+}
+
+html {
+  background-color: #e7e9f3;
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 9.6rem;
+  font-weight: 600;
+  color: #1a1a1c;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 9.6rem 12rem;
+}
+
+p {
+  font-size: 3.2rem;
+}
+
+li {
+  font-size: 1.6rem;
+  padding-bottom: 1.6rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #1a1a1c;
+}
+
+h3 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #5e5f63;
+}
+
+.main-content h3 > span {
+  font-weight: 500;
+  color: #5e5f63;
+  margin-bottom: 2.4rem;
+}
+
+.main-content ul > li {
+  font-size: 3.2rem;
+  padding-bottom: 0rem;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  margin-right: 6.4rem;
+  margin-top: 12rem;
+}
+
+/* .image-cluster {
+  margin-top: 2.4rem;
+} */
+
+.current-tab {
+  text-decoration: none;
+  color: #1a1a1c;
+  font-weight: 600;
+}
+
+.default-tab {
+  text-decoration: none;
+  color: #666666;
+}
+
+.card {
+  padding: 1.6rem;
+  background-color: #f2f5ff;
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.fotogrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.8rem;
+  align-items: stretch;
+  justify-content: center;
+}
